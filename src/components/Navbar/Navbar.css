@@ -1,0 +1,7 @@
+nav a.active {
+    background: linear-gradient(to right, #632EE3, #9F62F2);
+    background-clip: text;
+    color: transparent;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to right, #632EE3, #9F62F2) 1;
+}
