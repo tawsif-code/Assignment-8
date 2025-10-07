@@ -11,13 +11,13 @@ const Navbar = () => {
     return (
         <header>
             <div className='flex justify-between items-center px-4 md:px-12 py-4 mx-auto max-w-7xl'>
-                <div className='flex items-center gap-2 cursor-pointer'>
+                <NavLink to="/" className='flex items-center gap-2 cursor-pointer'>
                     <img className='w-10 h-10' src={logoImg} alt="" />
                     <h3
                         className='text-2xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>
                         HERO.IO
                     </h3>
-                </div>
+                </NavLink>
                 <nav className='hidden md:flex items-center gap-5'>
                     <NavLink to="/" className='font-medium'>Home</NavLink>
                     <NavLink to="/apps" className='font-medium'>Apps</NavLink>
