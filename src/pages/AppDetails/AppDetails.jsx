@@ -5,6 +5,7 @@ import ratingImg from '../../assets/icon-ratings.png'
 import reviewImg from '../../assets/icon-review.png'
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { toast, ToastContainer } from 'react-toastify';
+import { saveInstalledApp } from '../../utils/localStorage'
 
 const AppDetails = () => {
 
@@ -16,9 +17,10 @@ const AppDetails = () => {
 
     const [installed, setInstalled] = useState(false);
 
-    const handleInstall = () => {
+    const handleInstall = (id) => {
         setInstalled(true);
         toast.success(`${title} Installed Successfully!`);
+        saveInstalledApp(id);
     };
 
     return (
@@ -49,7 +51,7 @@ const AppDetails = () => {
                     </div>
                     <div>
                         <button
-                            onClick={handleInstall}
+                            onClick={()=>handleInstall(id)}
                             disabled={installed}
                             className='bg-[#00D390] p-5 rounded-lg text-lg text-white font-bold cursor-pointer'
                         >
@@ -75,7 +77,7 @@ const AppDetails = () => {
                 <h3 className='text-2xl text-[#001931] font-bold'>Description</h3>
                 <p className='text-lg text-[#627382] font-semibold mt-4 mb-10'>{description}</p>
             </div>
-             <ToastContainer></ToastContainer>
+            <ToastContainer></ToastContainer>
         </div>
     );
 };
