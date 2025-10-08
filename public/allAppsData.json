@@ -1,0 +1,362 @@
+[
+  {
+    "image": "https://i.postimg.cc/NfscsNW7/download.png",
+    "title": "TikTok",
+    "companyName": "ByteDance Ltd.",
+    "id": 1,
+    "description": "TikTok is a short-form video platform where users can create, share, and discover entertaining videos.",
+    "size": 240,
+    "reviews": "142M",
+    "ratingAvg": 4.4,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 4200000 },
+      { "name": "2 star", "count": 2100000 },
+      { "name": "3 star", "count": 7800000 },
+      { "name": "4 star", "count": 15600000 },
+      { "name": "5 star", "count": 112000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/bJ5tyDvF/download.jpg",
+    "title": "Instagram",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 2,
+    "description": "Instagram is a photo and video sharing app where users can connect through stories, reels, and posts.",
+    "size": 200,
+    "reviews": "137M",
+    "ratingAvg": 4.2,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 6200000 },
+      { "name": "2 star", "count": 3100000 },
+      { "name": "3 star", "count": 9500000 },
+      { "name": "4 star", "count": 21500000 },
+      { "name": "5 star", "count": 97000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/5NBS3g0G/download-1.png",
+    "title": "YouTube",
+    "companyName": "Google LLC",
+    "id": 3,
+    "description": "YouTube is a video streaming platform where users watch, upload, and share videos across various genres.",
+    "size": 310,
+    "reviews": "142M",
+    "ratingAvg": 4.5,
+    "downloads": "10B",
+    "ratings": [
+      { "name": "1 star", "count": 3200000 },
+      { "name": "2 star", "count": 2100000 },
+      { "name": "3 star", "count": 6900000 },
+      { "name": "4 star", "count": 22500000 },
+      { "name": "5 star", "count": 109000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/QdN1qrvy/download-2.png",
+    "title": "Spotify",
+    "companyName": "Spotify AB",
+    "id": 4,
+    "description": "Spotify lets you stream millions of songs, podcasts, and playlists personalized for your listening taste.",
+    "size": 180,
+    "reviews": "30M",
+    "ratingAvg": 4.3,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 1300000 },
+      { "name": "2 star", "count": 820000 },
+      { "name": "3 star", "count": 2500000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 18400000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/2yzSfCQc/download-3.png",
+    "title": "Netflix",
+    "companyName": "Netflix, Inc.",
+    "id": 5,
+    "description": "Netflix is a streaming service offering a wide variety of TV shows, movies, anime, and documentaries.",
+    "size": 220,
+    "reviews": "25M",
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 900000 },
+      { "name": "2 star", "count": 650000 },
+      { "name": "3 star", "count": 2100000 },
+      { "name": "4 star", "count": 6800000 },
+      { "name": "5 star", "count": 14600000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/cJwxgvTB/download-4.png",
+    "title": "Facebook",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 6,
+    "description": "Facebook connects people worldwide through posts, groups, stories, and communities.",
+    "size": 290,
+    "reviews": "122M",
+    "ratingAvg": 4.1,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 7200000 },
+      { "name": "2 star", "count": 4300000 },
+      { "name": "3 star", "count": 8800000 },
+      { "name": "4 star", "count": 20500000 },
+      { "name": "5 star", "count": 81000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/28yCdc2W/download-5.png",
+    "title": "Telegram",
+    "companyName": "Telegram FZ-LLC",
+    "id": 7,
+    "description": "Telegram is a fast, secure, and cloud-based messaging app with advanced privacy and file-sharing features.",
+    "size": 160,
+    "reviews": "14M",
+    "ratingAvg": 4.6,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 400000 },
+      { "name": "2 star", "count": 260000 },
+      { "name": "3 star", "count": 800000 },
+      { "name": "4 star", "count": 2600000 },
+      { "name": "5 star", "count": 9900000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/85TS7t7C/download-6.png",
+    "title": "Discord",
+    "companyName": "Discord Inc.",
+    "id": 8,
+    "description": "Discord is a communication platform for communities, gamers, and professionals with text, voice, and video chat.",
+    "size": 210,
+    "reviews": "18M",
+    "ratingAvg": 4.7,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 300000 },
+      { "name": "2 star", "count": 220000 },
+      { "name": "3 star", "count": 700000 },
+      { "name": "4 star", "count": 2100000 },
+      { "name": "5 star", "count": 14500000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/Sx4hyWvY/download.png",
+    "title": "ChatGPT",
+    "companyName": "OpenAI",
+    "id": 9,
+    "description": "ChatGPT is an AI-powered chatbot that assists with a wide range of tasks, from answering questions to generating creative content.",
+    "size": 150,
+    "reviews": "50M",
+    "ratingAvg": 4.8,
+    "downloads": "50M",
+    "ratings": [
+      { "name": "1 star", "count": 500000 },
+      { "name": "2 star", "count": 300000 },
+      { "name": "3 star", "count": 1000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 33000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/LXcWxpcc/download.jpg",
+    "title": "WhatsApp",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 10,
+    "description": "WhatsApp is a messaging app that allows users to send text messages, voice messages, and make voice and video calls.",
+    "size": 200,
+    "reviews": "150M",
+    "ratingAvg": 4.4,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 7000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 10000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 110000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/C50NZxTG/download-1.png",
+    "title": "Snapchat",
+    "companyName": "Snap Inc.",
+    "id": 11,
+    "description": "Snapchat is a multimedia messaging app known for its disappearing messages and a variety of filters and lenses.",
+    "size": 220,
+    "reviews": "80M",
+    "ratingAvg": 4.3,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 6000000 },
+      { "name": "2 star", "count": 3000000 },
+      { "name": "3 star", "count": 9000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 37000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/nzXzv4Zt/download-2.png",
+    "title": "Temu",
+    "companyName": "PDD Holdings",
+    "id": 12,
+    "description": "Temu is a shopping app offering a wide range of products at competitive prices, with frequent discounts and deals.",
+    "size": 180,
+    "reviews": "60M",
+    "ratingAvg": 4.2,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 2000000 },
+      { "name": "3 star", "count": 7000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 26000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/ZKGq6BD4/download-1.jpg",
+    "title": "CapCut",
+    "companyName": "ByteDance Ltd.",
+    "id": 13,
+    "description": "CapCut is a video editing app that allows users to create and edit videos with various effects and tools.",
+    "size": 150,
+    "reviews": "70M",
+    "ratingAvg": 4.6,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 4000000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 5000000 },
+      { "name": "4 star", "count": 15000000 },
+      { "name": "5 star", "count": 44000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/ydxKMsrL/download-3.png",
+    "title": "Threads",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 14,
+    "description": "Threads is a social networking app designed for real-time conversations and sharing updates with close friends.",
+    "size": 130,
+    "reviews": "20M",
+    "ratingAvg": 4.0,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 1000000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 8000000 },
+      { "name": "5 star", "count": 10000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/4dcGfBs4/download-2.jpg",
+    "title": "Messenger",
+    "companyName": "Meta Platforms, Inc.",
+    "id": 15,
+    "description": "Messenger is a messaging app that allows users to send messages, make voice and video calls, and send multimedia.",
+    "size": 210,
+    "reviews": "100M",
+    "ratingAvg": 4.3,
+    "downloads": "5B",
+    "ratings": [
+      { "name": "1 star", "count": 8000000 },
+      { "name": "2 star", "count": 4000000 },
+      { "name": "3 star", "count": 12000000 },
+      { "name": "4 star", "count": 25000000 },
+      { "name": "5 star", "count": 130000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/Wp6R5D3P/download-4.png",
+    "title": "Pinterest",
+    "companyName": "Pinterest, Inc.",
+    "id": 16,
+    "description": "Pinterest is an app to discover ideas, inspiration, and creative content via images, videos, and boards.",
+    "size": 180,
+    "reviews": "35M",
+    "ratingAvg": 4.5,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 1200000 },
+      { "name": "2 star", "count": 600000 },
+      { "name": "3 star", "count": 1800000 },
+      { "name": "4 star", "count": 7000000 },
+      { "name": "5 star", "count": 25000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/pVkG9Krt/download-5.png",
+    "title": "LinkedIn",
+    "companyName": "Microsoft Corp.",
+    "id": 17,
+    "description": "LinkedIn is a professional networking app to connect with colleagues, find jobs, and share professional updates.",
+    "size": 200,
+    "reviews": "50M",
+    "ratingAvg": 4.4,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 1000000 },
+      { "name": "2 star", "count": 500000 },
+      { "name": "3 star", "count": 1500000 },
+      { "name": "4 star", "count": 10000000 },
+      { "name": "5 star", "count": 38000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/mrRCN6pd/download-3.jpg",
+    "title": "Tinder",
+    "companyName": "Match Group",
+    "id": 18,
+    "description": "Tinder is a dating app that allows users to swipe to like or dislike other profiles and connect with matches.",
+    "size": 180,
+    "reviews": "70M",
+    "ratingAvg": 4.1,
+    "downloads": "500M",
+    "ratings": [
+      { "name": "1 star", "count": 5000000 },
+      { "name": "2 star", "count": 2500000 },
+      { "name": "3 star", "count": 6000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 44000000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/9Q1ZbB3z/download-6.png",
+    "title": "Etsy",
+    "companyName": "Etsy, Inc.",
+    "id": 19,
+    "description": "Etsy is an online marketplace for handmade, vintage, and unique items from independent sellers.",
+    "size": 160,
+    "reviews": "25M",
+    "ratingAvg": 4.6,
+    "downloads": "200M",
+    "ratings": [
+      { "name": "1 star", "count": 800000 },
+      { "name": "2 star", "count": 400000 },
+      { "name": "3 star", "count": 900000 },
+      { "name": "4 star", "count": 4000000 },
+      { "name": "5 star", "count": 19700000 }
+    ]
+  },
+  {
+    "image": "https://i.postimg.cc/RVdWxVgY/download-7.png",
+    "title": "Uber",
+    "companyName": "Uber Technologies, Inc.",
+    "id": 20,
+    "description": "Uber is a ride-hailing app that connects riders with drivers and offers various transport services worldwide.",
+    "size": 190,
+    "reviews": "45M",
+    "ratingAvg": 4.3,
+    "downloads": "1B",
+    "ratings": [
+      { "name": "1 star", "count": 3000000 },
+      { "name": "2 star", "count": 1500000 },
+      { "name": "3 star", "count": 4000000 },
+      { "name": "4 star", "count": 12000000 },
+      { "name": "5 star", "count": 24000000 }
+    ]
+  }
+]

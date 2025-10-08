@@ -6,7 +6,7 @@
     "id": 1,
     "description": "TikTok is a short-form video platform where users can create, share, and discover entertaining videos.",
     "size": 240,
-    "reviews": 142000000,
+    "reviews": "142M",
     "ratingAvg": 4.4,
     "downloads": "5B",
     "ratings": [
@@ -24,7 +24,7 @@
     "id": 2,
     "description": "Instagram is a photo and video sharing app where users can connect through stories, reels, and posts.",
     "size": 200,
-    "reviews": 137000000,
+    "reviews": "137M",
     "ratingAvg": 4.2,
     "downloads": "5B",
     "ratings": [
@@ -42,7 +42,7 @@
     "id": 3,
     "description": "YouTube is a video streaming platform where users watch, upload, and share videos across various genres.",
     "size": 310,
-    "reviews": 142000000,
+    "reviews": "142M",
     "ratingAvg": 4.5,
     "downloads": "10B",
     "ratings": [
@@ -60,7 +60,7 @@
     "id": 4,
     "description": "Spotify lets you stream millions of songs, podcasts, and playlists personalized for your listening taste.",
     "size": 180,
-    "reviews": 30000000,
+    "reviews": "30M",
     "ratingAvg": 4.3,
     "downloads": "1B",
     "ratings": [
@@ -78,7 +78,7 @@
     "id": 5,
     "description": "Netflix is a streaming service offering a wide variety of TV shows, movies, anime, and documentaries.",
     "size": 220,
-    "reviews": 25000000,
+    "reviews": "25M",
     "ratingAvg": 4.5,
     "downloads": "1B",
     "ratings": [
@@ -96,7 +96,7 @@
     "id": 6,
     "description": "Facebook connects people worldwide through posts, groups, stories, and communities.",
     "size": 290,
-    "reviews": 122000000,
+    "reviews": "122M",
     "ratingAvg": 4.1,
     "downloads": "5B",
     "ratings": [
@@ -114,7 +114,7 @@
     "id": 7,
     "description": "Telegram is a fast, secure, and cloud-based messaging app with advanced privacy and file-sharing features.",
     "size": 160,
-    "reviews": 14000000,
+    "reviews": "14M",
     "ratingAvg": 4.6,
     "downloads": "1B",
     "ratings": [
@@ -132,7 +132,7 @@
     "id": 8,
     "description": "Discord is a communication platform for communities, gamers, and professionals with text, voice, and video chat.",
     "size": 210,
-    "reviews": 18000000,
+    "reviews": "18M",
     "ratingAvg": 4.7,
     "downloads": "500M",
     "ratings": [

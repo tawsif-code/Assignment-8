@@ -13,7 +13,7 @@ const TrendingApps = () => {
     }, [])
 
     return (
-        <div>
+        <div className='bg-gray-100 p-10'>
             <div className='m-10 text-center'>
                 <h1 className='text-5xl text-[#001931] font-bold'>Trending Apps</h1>
                 <p className='text-2xl text-[#627382] font-semibold p-2'>Explore All Trending Apps on the Market developed by us</p>
@@ -26,7 +26,7 @@ const TrendingApps = () => {
                 </div>
                 <div className='flex justify-center m-10'>
                     <a href="/apps">
-                        <button className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-5 py-2 rounded-lg text-xl text-white font-bold cursor-pointer'>
+                        <button className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-6 py-3 rounded-lg text-xl text-white font-bold cursor-pointer'>
                             Show All
                         </button>
                     </a>
