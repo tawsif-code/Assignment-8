@@ -6,7 +6,7 @@ import ratingImg from '../../assets/icon-ratings.png'
 const AllApp = ({singleApp}) => {
     const { id, image, title, downloads, ratingAvg } = singleApp;
     return (
-        <Link to={`/appDetails/${id}`}>
+        <Link to={`/apps/appDetails/${id}`}>
             <div className='bg-white shadow-md p-6 text-center space-y-5 rounded-lg mt-5'>
                 <img className='mx-auto mb-5 w-32 h-32  object-contain' src={image} alt="" />
                 <h3 className='text-2xl text-[#001931] font-semibold'>{title}</h3>
