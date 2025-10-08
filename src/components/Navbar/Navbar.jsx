@@ -9,7 +9,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     return (
-        <navbar>
+        <header>
             <div className='flex justify-between items-center px-4 md:px-12 py-4 mx-auto max-w-7xl'>
                 <NavLink to="/" className='flex items-center gap-2 cursor-pointer'>
                     <img className='w-10 h-10' src={logoImg} alt="" />
@@ -52,7 +52,7 @@ const Navbar = () => {
                     </a>
                 </div>
             )}
-        </navbar>
+        </header>
     );
 };
 
