@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import downloadImg from '../../assets/icon-downloads.png'
 import ratingImg from '../../assets/icon-ratings.png'
 import reviewImg from '../../assets/icon-review.png'
 import { Bar, BarChart, CartesianGrid, Legend, ResponsiveContainer, Tooltip, XAxis, YAxis } from 'recharts';
 import { toast, ToastContainer } from 'react-toastify';
-import { saveInstalledApp } from '../../utils/localStorage'
+import { getInstalledApp, saveInstalledApp } from '../../utils/localStorage'
 
 const AppDetails = () => {
 
@@ -17,10 +17,17 @@ const AppDetails = () => {
 
     const [installed, setInstalled] = useState(false);
 
-    const handleInstall = (id) => {
+    useEffect(() => {
+        const installedApps = getInstalledApp();
+        if (installedApps.includes(appId)) {
+            setInstalled(true);
+        }
+    }, [appId]);    
+
+    const handleInstall = () => {
         setInstalled(true);
         toast.success(`${title} Installed Successfully!`);
-        saveInstalledApp(id);
+        saveInstalledApp(appId);
     };
 
     return (
@@ -51,7 +58,7 @@ const AppDetails = () => {
                     </div>
                     <div>
                         <button
-                            onClick={()=>handleInstall(id)}
+                            onClick={handleInstall}
                             disabled={installed}
                             className='bg-[#00D390] p-5 rounded-lg text-lg text-white font-bold cursor-pointer'
                         >

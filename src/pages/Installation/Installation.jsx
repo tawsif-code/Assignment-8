@@ -24,19 +24,19 @@ const Installation = () => {
         setSortOrder(value);
         let sortedApps = [...installedApps];
         if (value === 'high-low') {
-            sortedApps.sort((a, b) => parseInt(b.downloads.replace(/\D/g, '')) - parseInt(a.downloads.replace(/\D/g, '')));
-        } else if (value === 'low-high') {   
-            sortedApps.sort((a, b) => parseInt(a.downloads.replace(/\D/g, '')) - parseInt(b.downloads.replace(/\D/g, '')));
+            sortedApps.sort((a, b) => parseInt(b.downloadCount) - parseInt(a.downloadCount));
+        } else if (value === 'low-high') {
+            sortedApps.sort((a, b) => parseInt(a.downloadCount) - parseInt(b.downloadCount));
         }
         setInstalledApps(sortedApps);
     };
-    
+
     const handleUninstall = (app) => {
-        const updatedApps = installedApps.filter(a => a.id !==app.id);
+        const updatedApps = installedApps.filter(a => a.id !== app.id);
         setInstalledApps(updatedApps);
         removeInstalledApp(app.id);
         toast.success(`${app.title} uninstalled successfully!`);
-    };    
+    };
 
     return (
         <div className='bg-gray-100 p-10'>
@@ -50,12 +50,12 @@ const Installation = () => {
                     <select
                         value={sortOrder}
                         onChange={handleSort}
-                        className='border border-gray-300 rounded-lg p-2 text-lg'
+                        className='border border-gray-300 rounded-lg p-2 text-lg cursor-pointer'
                     >
                         <option value=''>Sort By Downloads</option>
                         <option value='high-low'>High-Low</option>
                         <option value='low-high'>Low-High</option>
-                    </select>    
+                    </select>
                 </div>
                 {installedApps.length === 0 ? (<p className='text-xl sm:text-2xl text-[#627382] text-center font-bold'>No apps installed yet.</p>) :
                     (

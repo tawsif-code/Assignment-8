@@ -5,7 +5,7 @@ import bannerImg from '../../assets/hero.png'
 
 const Banner = () => {
     return (
-        <>
+        <div className='bg-gray-100'>
             <div className='max-w-6xl mx-auto text-center p-8'>
                 <h1 className='text-4xl sm:text-5xl md:text-6xl text-[#001931] font-bold leading-tight'>
                     We Build <br /><span className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent'>Productive</span> Apps
@@ -29,10 +29,10 @@ const Banner = () => {
                         </a>
                     </button>
                 </div>
-                <img className='mt-10 mx-auto w-full max-w-3xl object-contain' src={bannerImg} alt="" />
             </div>
-            <div className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-4 sm:px-8 py-12 text-white'>
-                <div className='max-w-6xl mx-auto text-center px-4 sm:px-8'>
+            <img className='mx-auto w-full max-w-3xl object-contain' src={bannerImg} alt="" />
+            <div className='bg-gradient-to-r from-[#632EE3] to-[#9F62F2] px-4 sm:px-8 py-0 text-white'>
+                <div className='max-w-6xl mx-auto text-center px-4 sm:px-8 py-12'>
                     <h1 className='text-2xl sm:text-3xl md:text-4xl font-bold mb-8'>Trusted by Millions, Built for You</h1>
                     <div className='grid grid-cols-1 sm:grid-cols-3 gap-8 text-center mt-4'>
                         <div className='space-y-4'>
@@ -53,8 +53,7 @@ const Banner = () => {
                     </div>
                 </div>
             </div>
-
-        </>
+        </div>
     );
 };
 

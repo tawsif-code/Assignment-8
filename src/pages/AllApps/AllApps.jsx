@@ -1,17 +1,24 @@
-import React, { Suspense, useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useLoaderData } from 'react-router';
 import AllApp from '../AllApp/AllApp';
+import searchImg from '../../assets/search.png'
 
 const AllApps = () => {
     const allApps = useLoaderData();
     const [searchTerm, setSearchTerm] = useState('');
     const [filteredApps, setFilteredApps] = useState(allApps);
+    const [loading, setLoading] = useState(false);
 
     useEffect(() => {
-        const filtered = allApps.filter(app =>
-            app.title.toLowerCase().includes(searchTerm.toLowerCase())
-        );
-        setFilteredApps(filtered);
+        setLoading(true);
+        const delayDebounce = setTimeout(() => {
+            const filtered = allApps.filter(app =>
+                app.title.toLowerCase().includes(searchTerm.toLowerCase())
+            );
+            setFilteredApps(filtered);
+            setLoading(false);
+        }, 500);
+        return () => clearTimeout(delayDebounce);
     }, [searchTerm, allApps]);
 
     return (
@@ -22,16 +29,23 @@ const AllApps = () => {
             </div>
             <div className='flex flex-wrap justify-between items-center gap-3 mb-6'>
                 <p className='text-2xl text-[#001931] font-semibold'>({filteredApps.length}) Apps Found</p>
-                <input
-                    type="text"
-                    placeholder='Search Apps'
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                    className='flex-1 sm:flex-none sm:w-1/2 md:w-1/3 border-2 rounded-lg px-4 py-2 text-base sm:text-lg'
-                />
+                <div className='flex items-center border-2 border-gray-400 rounded-lg px-3 py-2 sm:w-1/2 md:w-1/3 bg-white'>
+                    <img className='mr-2' src={searchImg} alt="" />
+                    <input
+                        type="text"
+                        placeholder='Search Apps'
+                        value={searchTerm}
+                        onChange={(e) => setSearchTerm(e.target.value)}
+                        className='flex-1 outline-none text-base sm:text-lg'
+                    />
+                </div>
             </div>
-            <Suspense fallback={<span>loading......</span>}>
-                {filteredApps.length > 0 ? (
+            <div className='mt-10'>
+                {loading ? (
+                    <div className='flex justify-center items-center h-40'>
+                        <div className='animate-spin rounded-full h-14 w-14 border-t-4 border-b-4 border-[#632EE3]'></div>
+                    </div>
+                ) : filteredApps.length > 0 ? (
                     <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 max-w-full mx-auto'>
                         {filteredApps.map((singleApp) => (
                             <AllApp key={singleApp.id} singleApp={singleApp}></AllApp>
@@ -47,7 +61,7 @@ const AllApps = () => {
                         </a>
                     </div>
                 )}
-            </Suspense>
+            </div>
         </div>
     );
 };
